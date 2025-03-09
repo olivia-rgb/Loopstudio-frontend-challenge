@@ -8,7 +8,7 @@ function Creations() {
             <p className='text-3xl md:text-5xl text-center mx-auto md:mx-0 md:text-left uppercase text-black'> Our creations</p>
             <p className=' hidden md:block border-2 uppercase text-center text-sm px-6 py-2 font-[Josefin Sans] border-[#8c8c8c]'>See all</p>
         </div>
-        <div className='grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-10'>
+        <div className='grid grid-cols-[repeat(auto-fit,_minmax(250px,_1fr))] gap-10'>
             <div className=' h-50 md:h-100 bg-[url("/mobile-img/image-deep-earth.jpg")] md:bg-[url("/desktop-img/image-deep-earth.jpg")] bg-no-repeat bg-cover bg-center text-white flex flex-col justify-end p-8 text-3xl font-light'>
                  <p> DEEP</p>
                  <p> EARTH</p>
