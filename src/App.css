@@ -1,0 +1,43 @@
+body{
+  /* font-family: "Alata", sans-serif; */
+  font-family: "Josefin Sans", sans-serif;
+
+
+}
+
+.underline-hover {
+  position: relative;
+}
+
+
+.underline-hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: all 0.1s ease;
+  transform: translateX(-50%);
+}
+
+.underline-hover:hover::after {
+  width: 50%;
+}
+
+.about {
+  position: relative;
+}
+.about::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50px, -50px);
+  width: 150px;
+  height: 150px;
+  background-color: rgb(216, 18, 216);
+  transition: all 0.1s ease;
+}
+
